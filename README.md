@@ -1,24 +1,24 @@
 # Bodhi: Modular AI-Driven Examination Intelligence Platform 🌳
 
-Bodhi is an AI-powered examination intelligence platform designed to help competitive exam aspirants learn smarter through structured analysis, adaptive feedback, and concept-first explanations.
+**Bodhi** is an AI-powered examination intelligence platform designed to help competitive exam aspirants learn smarter through structured analysis, adaptive feedback, and concept-first explanations.
 
-The platform launches with GATE as its pilot domain and is architected to be modular and extensible to other competitive exams.
+The platform launches with GATE as its pilot domain and is architected to be modular and extensible to other competitive exams.<br>
 By combining structured previous-year question analysis with AI-driven explanations and adaptive testing, Bodhi transforms static question banks into an interactive learning system.
 
 ----
 ### Core Features (GATE Module)
 
-* PYQ Library
+* **PYQ Library:**
 Filter by subject, topic, year, and question type.
-* AI-Powered Explanations
+* **AI-Powered Explanations:**
 Step-by-step breakdowns from fundamentals, plus exam-oriented shortcuts.
-* QuizBot
+* **QuizBot:**
 Adaptive topic-wise quizzes with instant feedback and performance tracking.
-* Flashcards
+* **Flashcards:**
 Concept, formula, and mistake-based revision cards.
-* Exam Simulator
+* **Exam Simulator:**
 Realistic mock test interface with timer, review marking, and analytics.
-* Pattern Analyzer
+* **Pattern Analyzer:**
 Topic trends and frequency insights derived from historical papers.
 
 ---
@@ -32,9 +32,24 @@ While currently piloted for GATE, Bodhi’s architecture supports expansion to:
 * Aptitude-based assessments
 
 ---
+### Architecture
+
+Bodhi is built as a modular system with:
+
+* React-based frontend
+* Node.js + Express backend
+* Structured database schema
+* AI integration layer with explanation caching
+* Exam-specific rule engines
+
+Each exam is implemented as a module that plugs into the core intelligence engine.
+
+---
 ### Future Directions
 
-* Multi-format learning (audio, video, structured notes)
-* Personalized study recommendations
-* Cross-exam adaptive intelligence
-* Performance-driven revision cycles
+* Multi-format learning (audio, video, structured notes) for diverse learning styles.
+* Voice-Enabled Learning for hands-free and visually assisted study.
+* Personalized study recommendations tailored to individual strengths, weaknesses, and progress trends.
+* Cross-exam adaptive intelligence that adapts across multiple competitive examinations.
+* Performance-driven revision cycles that prioritizes weak concepts and recurring mistakes.
+* High-contrast themes, adjustable text sizes, and dyslexia-friendly fonts for improved accessibility.
